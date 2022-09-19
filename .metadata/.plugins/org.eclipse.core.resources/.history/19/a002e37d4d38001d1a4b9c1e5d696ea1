@@ -1,0 +1,162 @@
+package br.com.residencia.poo.exercicios;
+
+public class BalancoAnual {
+	
+	int gastosJaneiro = 15000;
+	int gastosFevereiro = 23000;
+	int gastosMarco = 17000;
+	int gastosAbril = 19000;
+	int gastosMaio = 21000;
+	int gastosJunho = 23000;
+	int gastosJulho = 24500;
+	int gastosAgosto = 21500;
+	int gastosSetembro = 24000;
+	int gastosOutubro = 18000;
+	int gastosNovembro = 20500;
+	int gastosDezembro = 30000;
+	
+	int gastoSemestral = gastosJaneiro + gastosFevereiro + gastosMarco + gastosAbril + gastosMaio + gastosJunho + gastosJulho;
+	int gastosAnual = gastoSemestral + gastosAgosto + gastosSetembro + gastosOutubro + gastosNovembro + gastosDezembro;
+	
+	public BalancoAnual() {
+	}
+	
+	public BalancoAnual(int gastosJaneiro, int gastosFevereiro, int gastosMarco, int gastosAbril, int gastosMaio,
+			int gastosJunho, int gastosJulho, int gastosAgosto, int gastosSetembro, int gastosOutubro,
+			int gastosNovembro, int gastosDezembro, int gastoSemestral, int gastosAnual) {
+		
+		this.gastosJaneiro = gastosJaneiro;
+		this.gastosFevereiro = gastosFevereiro;
+		this.gastosMarco = gastosMarco;
+		this.gastosAbril = gastosAbril;
+		this.gastosMaio = gastosMaio;
+		this.gastosJunho = gastosJunho;
+		this.gastosJulho = gastosJulho;
+		this.gastosAgosto = gastosAgosto;
+		this.gastosSetembro = gastosSetembro;
+		this.gastosOutubro = gastosOutubro;
+		this.gastosNovembro = gastosNovembro;
+		this.gastosDezembro = gastosDezembro;
+		this.gastoSemestral = gastoSemestral;
+		this.gastosAnual = gastosAnual;
+	}
+
+	public int getGastosJaneiro() {
+		return gastosJaneiro;
+	}
+
+	public void setGastosJaneiro(int gastosJaneiro) {
+		this.gastosJaneiro = gastosJaneiro;
+	}
+
+	public int getGastosFevereiro() {
+		return gastosFevereiro;
+	}
+
+	public void setGastosFevereiro(int gastosFevereiro) {
+		this.gastosFevereiro = gastosFevereiro;
+	}
+
+	public int getGastosMarco() {
+		return gastosMarco;
+	}
+
+	public void setGastosMarco(int gastosMarco) {
+		this.gastosMarco = gastosMarco;
+	}
+
+	public int getGastosAbril() {
+		return gastosAbril;
+	}
+
+	public void setGastosAbril(int gastosAbril) {
+		this.gastosAbril = gastosAbril;
+	}
+
+	public int getGastosMaio() {
+		return gastosMaio;
+	}
+
+	public void setGastosMaio(int gastosMaio) {
+		this.gastosMaio = gastosMaio;
+	}
+
+	public int getGastosJunho() {
+		return gastosJunho;
+	}
+
+	public void setGastosJunho(int gastosJunho) {
+		this.gastosJunho = gastosJunho;
+	}
+
+	public int getGastosJulho() {
+		return gastosJulho;
+	}
+
+	public void setGastosJulho(int gastosJulho) {
+		this.gastosJulho = gastosJulho;
+	}
+
+	public int getGastosAgosto() {
+		return gastosAgosto;
+	}
+
+	public void setGastosAgosto(int gastosAgosto) {
+		this.gastosAgosto = gastosAgosto;
+	}
+
+	public int getGastosSetembro() {
+		return gastosSetembro;
+	}
+
+	public void setGastosSetembro(int gastosSetembro) {
+		this.gastosSetembro = gastosSetembro;
+	}
+
+	public int getGastosOutubro() {
+		return gastosOutubro;
+	}
+
+	public void setGastosOutubro(int gastosOutubro) {
+		this.gastosOutubro = gastosOutubro;
+	}
+
+	public int getGastosNovembro() {
+		return gastosNovembro;
+	}
+
+	public void setGastosNovembro(int gastosNovembro) {
+		this.gastosNovembro = gastosNovembro;
+	}
+
+	public int getGastosDezembro() {
+		return gastosDezembro;
+	}
+
+	public void setGastosDezembro(int gastosDezembro) {
+		this.gastosDezembro = gastosDezembro;
+	}
+
+	public int getGastoSemestral() {
+		return gastoSemestral;
+	}
+
+	public void setGastoSemestral(int gastoSemestral) {
+		this.gastoSemestral = gastoSemestral;
+	}
+
+	public int getGastosAnual() {
+		return gastosAnual;
+	}
+
+	public void setGastosAnual(int gastosAnual) {
+		this.gastosAnual = gastosAnual;
+	}
+	
+		
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,33 @@
+package br.com.residencia.poo.exercicios;
+
+public class Balanco {
+
+	public static void main(String[] args) {
+			
+			public int gastosJaneiro = 15000;
+			public int gastosFevereiro = 23000;
+			public int gastosMarco = 17000;
+			public int gastosAbril = 19000;
+			public int gastosMaio = 21000;
+			public int gastosJunho = 23000;
+			public int gastosJulho = 24500;
+			public int gastosAgosto = 21500;
+			public int gastosSetembro = 24000;
+			public int gastosOutubro = 18000;
+			public int gastosNovembro = 20500;
+			public int gastosDezembro = 30000;
+			
+			public int gastosTrimestral = gastosJaneiro + gastosFevereiro + gastosMarco;
+			public int gastoSemestral = gastosTrimestral + gastosAbril + gastosMaio + gastosJunho;
+			public int gastoAnual = gastoSemestral + gastosJulho + gastosAgosto + gastosSetembro + gastosOutubro + gastosNovembro + gastosDezembro;
+			
+			System.out.println("O Balanço Trimestral foi de: R$ " + gastosTrimestral);
+			System.out.println("/nO Balanço Semestral foi de: R$ " + gastoSemestral);
+			System.out.println("/nO Balanço Anual foi de: R$ " + gastoAnual);
+
+	
+	
+	}
+
+
+}

@@ -1,0 +1,10 @@
+package br.com.udemy.poo;
+
+public class App {
+
+	public static void main(String[] args) {
+		System.out.println("Aprendendo POO com Java");
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package br.com.udemy.poo;
+
+public class Pessoa {
+	private String nome;
+	private Integer idade;
+	
+	//PUBLIC: Qualquer um consegue acessar;
+	//PRIVATE: Somente a Classe consegue acessar;
+	//PROTECT: Somente a Classe e seus filhos conseguem acessar;
+	//DEFAULT: Somente a Classe, seus filhos e 
+	//as Classes no mesmo PACKAGE conseguem acessar.
+}

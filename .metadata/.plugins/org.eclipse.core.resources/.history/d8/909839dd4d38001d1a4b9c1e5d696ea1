@@ -1,0 +1,27 @@
+package br.com.residencia.poo.exercicios;
+
+public class BalancoAnual {
+	
+	public int gastosJaneiro = 15000;
+	public int gastosFevereiro = 23000;
+	public int gastosMarco = 17000;
+	public int gastosAbril = 19000;
+	public int gastosMaio = 21000;
+	public int gastosJunho = 23000;
+	public int gastosJulho = 24500;
+	public int gastosAgosto = 21500;
+	public int gastosSetembro = 24000;
+	public int gastosOutubro = 18000;
+	public int gastosNovembro = 20500;
+	public int gastosDezembro = 30000;
+	
+	public int gastoSemestral = gastosJaneiro + gastosFevereiro + gastosMarco + gastosAbril + gastosMaio + gastosJunho + gastosJulho;
+	public int gastosAnual = gastoSemestral + gastosAgosto + gastosSetembro + gastosOutubro + gastosNovembro + gastosDezembro;
+
+	
+	
+	}
+	
+	
+
+}
